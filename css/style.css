@@ -650,7 +650,8 @@ header{
 
   .faq__answer p,
   #quiz {
-    font-size: 1rem;
+    font-size: 1.2rem;
+   
   }
 
   input[type="radio"] + span {
@@ -733,6 +734,23 @@ header{
 
         .footer__socials{
             justify-content: center;
+        }
+
+        .courses {
+            margin-bottom:0;
+            padding-bottom: 1rem;
+            
+        }
+        .categories{
+            padding: 2rem;
+        }
+
+        header{
+            padding-bottom: 1rem;
+        }
+
+        .header__left .btn{
+            margin-bottom: 1.5rem;
         }
     
      }
@@ -823,5 +841,28 @@ header{
 #nextBtn:hover, #prevBtn:hover, #restartBtn:hover {
   opacity: 0.9;
 }
+
+ .faq__answer p {
+            margin-bottom: 15px;
+            font-size: 20px;
+            padding: 0.7rem;
+            background: #000;
+            line-height: 1.5rem;
+        }
+        .faq__answer .question {
+            font-weight: bold;
+             color: white;
+             font-weight: bold;
+        }
+      .faq__answer  .answer {
+            color: #fff;
+        }
+        .norwegian {
+            font-size: 18px;
+            color: white;
+            direction: ltr;
+            text-align: left;
+            margin-top: 5px;
+        }
 
 

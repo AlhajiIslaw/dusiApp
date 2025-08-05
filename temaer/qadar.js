@@ -115,6 +115,153 @@ const allQuizzes = {
     correct: 2
   }
   ],
+  QleksjonThree:[
+  {
+    "question": "Hvor mange betingelser har «la ilaha illallah»?",
+    "options": ["Fem", "Åtte", "Sju"],
+    "correct": 1
+  },
+  {
+    "question": "Hvilken av disse er IKKE en av betingelsene for «la ilaha illallah»?",
+    "options": ["Tålmodighet", "Kunnskap", "Overbevisning"],
+    "correct": 0
+  },
+  {
+    "question": "Hva betyr 'kufr bit-taghoot' i betingelsene for «la ilaha illallah»?",
+    "options": [
+      "Å elske Allah",
+      "Å fornekte falske guder",
+      "Å akseptere alle religioner"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hvor mange søyler har «la ilaha illallah»?",
+    "options": ["Én", "To", "Tre"],
+    "correct": 1
+  },
+  {
+    "question": "Hva er de to søylene i «la ilaha illallah»?",
+    "options": [
+      "Kunnskap og oppriktighet",
+      "Fornektelse og bekreftelse",
+      "Aksept og kjærlighet"
+    ],
+    "correct": 1
+  }
+], QleksjonFour:[
+  {
+    "question": "Hva vil det si at Muhammed er Allahs sendebud?",
+    "options": [
+      "Å tro at han var en god mann",
+      "Å følge ham i alt han gjorde uansett kontekst",
+      "Å adlyde ham i det han befalte, tro ham i det han informerte om, unngå det han forbød og advarte mot, og at Allah kun skal tilbes slik han har foreskrevet"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Hva innebærer å tro på Muhammed som Allahs sendebud?",
+    "options": [
+      "Å elske ham og nevne navnet hans ofte",
+      "Å tro på det han sa, adlyde det han befalte og unngå det han forbød",
+      "Å reise til Medina"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva skal man unngå hvis man følger Muhammed som sendebud?",
+    "options": [
+      "Alt han forbød og advarte mot",
+      "Alt nytt innen teknologi",
+      "Folk som ikke er muslimer"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Hva skal man kun tilbe Allah med?",
+    "options": [
+      "Med det man selv føler er rett",
+      "Med det Muhammed brakte og foreskrev",
+      "Med alt som står i gamle skrifter"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva er det største Allah har befalt?",
+    "options": [
+      "Tawhid – å tilbe Allah alene",
+      "Å følge alle profetene",
+      "Å bygge moskeer"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Hva betyr 'tawhid'?",
+    "options": [
+      "Å gjøre gode gjerninger",
+      "Å gi veldedighet",
+      "Å tilbe Allah alene"
+    ],
+    "correct": 2
+  }
+],
+QleksjonFem:[
+  {
+    "question": "Hva er det største Allah har forbudt?",
+    "options": [
+      "Å spise svinekjøtt",
+      "Shirk – å sette noen ved siden av Allah",
+      "Å lyve"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva betyr shirk?",
+    "options": [
+      "Å tilbe Allah alene",
+      "Å tro på engler",
+      "Å sette noen ved siden av Allah"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Hva er tawhid?",
+    "options": [
+      "Å tro på alle profetene",
+      "Å tilskrive Allah det som er spesielt for Ham alene i herredømme, guddommelighet, navn og egenskaper",
+      "Å følge islams fem søyler"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hvor mange deler består tawhid av?",
+    "options": [
+      "To",
+      "Tre",
+      "Fire"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva handler tawhid ar-Rububiyyah om?",
+    "options": [
+      "Allahs herredømme",
+      "Allahs navn",
+      "Profetens liv"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Hva handler tawhid al-Uluhiyyah om?",
+    "options": [
+      "Allahs rett til å bli tilbedt",
+      "Profetens budskap",
+      "Bønnens betydning"
+    ],
+    "correct": 0
+  }
+],
+
   hadith: [
     {
       question: '1. Hva er Hadith?',
@@ -338,6 +485,7 @@ quizButtons.forEach(b => {
 closes.addEventListener("click", () => {
   popupWrapper.style.display = 'none';
 });
+
 
 function loadQuestion() {
   const q = questions[currentQuestion];
