@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dugsi Quraan Online</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <style>
+      body .quran__container {
+        display: grid;
+        grid-template-rows: auto 1fr auto; /* nav | content | footer */
+        min-height: 100vh;
+      }
+      .quran__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+
+      body .quran__container h4{
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+
+      
+      body .quran__container p{
+      font-size: 1rem;
+        
+      }
+
+      .wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+      }
+
+      .popup {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        position: relative;
+        background: white;
+        color: red;
+      }
+
+      .popupclose {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 2rem;
+      }
+
+      @media screen and (max-width: 800px) {
+        .quran__container {
+          grid-template-columns: 1fr;
+        }
+
+        .quran__container h4,
+        p {
+          margin: 1rem 0;
+        }
+      }
+      .category__link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+
+      .category__link:hover .category {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"> <h4>DugsiOnline</h4></a>
+        <ul class="nav__menu">
+          <li><a href="../index.html">Hjem</a></li>
+          <li><a href="../about.html">Om Dugsien</a></li>
+          <li><a href="../courses.html">Undervisning</a></li>
+          <li><a href="../contact.html">Kontakt</a></li>
+        </ul>
+        <button id="open-menu-btn">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button id="close-menu-btn">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
+    </nav>
+
+    <section class="Aqidah">
+      <div class="container quran__container">
+        <div class="aqidah__left">
+          <h4>Islamsk Aqidah – Troens Grunnvoll</h4>
+          <p>
+            Utforsk de sentrale prinsippene i islamsk tro (Aqidah) gjennom nøye
+            utvalgte temaer. Du vil lære om Allahs navn og egenskaper, englene,
+            profetene, den siste dagen og mer. Hver leksjon er tilrettelagt med
+            forklaringer, eksempler og quizzer for å styrke forståelsen din og
+            gjøre læringen engasjerende og praktisk.
+          </p>
+        </div>
+
+        <div class="aqidah__right">
+          <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+              <h4>Leksjon-1:Troen på Qadar</h4>
+              <div class="faq__answer">
+                <p>
+                  Dette er den sjette delen av iman (tro). En kjent lærd, Imam
+                  An-Nawawi, forklarte det slik: *Allah har bestemt alt som skal
+                  skje – lenge før det skjer. Han vet nøyaktig når og hvor alt
+                  skjer, og alt skjer slik Allah har bestemt det.* Å tro på
+                  Qadar betyr å tro på flere ting: *1. Allah vet alt som skal
+                  skje* Allah vet alt før det skjer. <br />
+
+                  Han vet hva alle mennesker kommer til å gjøre – både det gode
+                  og det onde, om de vil følge Allah eller ikke. Han vet hvem
+                  som skal komme til Paradis, og hvem som ikke skal det. Alt
+                  dette visste Allah før vi ble født, og alt er skrevet ned hos
+                  Ham. *2. Alt er skrevet ned i en spesiell bok* Alt som skal
+                  skje er skrevet ned i noe som kalles Den bevarte tavlen
+                  (Al-Lawh Al-Mahfudh). Det betyr at Allah allerede har skrevet
+                  ned hele historien – alt fra før vi ble født, og alt som
+                  kommer til å skje. *3.
+                  <br />
+                  Allah bestemmer hva som skjer i magen til mamma* Profeten
+                  Muhammad (fred være med ham) fortalte at når et barn er i
+                  magen til mamma, sender Allah en engel som skriver ned fire
+                  ting om barnet: * Hva det skal få som mat og penger (livets
+                  forsørgelse), * Hvor lenge det skal leve, * Hva det kommer til
+                  å gjøre, * Om det blir lykkelig eller ikke i livet etter
+                  døden.
+                </p>
+
+                <p>
+                  Allah bestemmer hvordan og når ting skjer* Allah har skapt alt
+                  som er godt og alt som er vanskelig, og Han har bestemt
+                  nøyaktig hvordan og når det skjer. Ingenting skjer tilfeldig –
+                  Allah har kontroll på alt.
+
+                  <strong>Kort fortalt:</strong>Å tro på Qadar betyr at vi tror
+                  at Allah vet alt, bestemmer alt, og at alt som skjer – både
+                  det gode og det vanskelige – skjer fordi Allah har villet det.
+                  Men vi må også huske at vi har ansvar for valgene vi tar.
+                </p>
+                <button class="btn quiz__btn" data-quiz="QleksjonEn">
+                  Ta quiz
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+              <h4>Leksjon-2:Troen på Qadar</h4>
+              <div class="faq__answer">
+                <p>
+                  *س١ - لِمَاذَاْ خَلَقَنَا اللَّه ؟* *Spørsmål 1: Hvorfor
+                  skapte Allah oss?* *ج١ - خَلَقَنَا اللّه تَعَالَى لِنَعْبُدَ
+                  وَحْدَهُ قَاْلَ تَعَاْلَى: (وَمَاْ خَلَقْتُ الْجِنَّ
+                  وَالإِنْسَ إِلا لِيَعْبُدُونِ ) سُورَةُ الذَّارِيَاتِ (٥٦)*
+                  *Svar 1: Allah, den Høyeste, skapte oss for at vi skal tilbe
+                  Ham alene. Han sier (oversettelse av meningen): «Og Jeg skapte
+                  ikke djinnene og menneskene annet enn for at de skal tilbe
+                  Meg.» – Sure Adh-Dhariyat, vers 56
+                </p>
+                <p>
+                  .س٢ - مَا الأُصُوْلُ الثَّلاَثَةُ الَّتِي يَجِبُ عَلَى
+                  العَبْدِ مَعْرِفَتُهَا؟* *Spørsmål 2: Hva er de tre
+                  grunnleggende prinsippene som enhver tjener må kjenne til?*
+                  *ج٢ - مَعْرِفَةُ العَبْدِ رَبَّهُ، وَدِينَهُ، وَنَبِيَّهُ
+                  مُحَمَّدًا صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ* *Svar 2: At
+                  tjeneren kjenner sin Herre, sin… *س٧ - كَمْ أَرْكَانُ
+                  الإِسْلَامِ؟ وَمَا هِيَ؟*
+                </p>
+                <p>
+                  *Spørsmål 7: Hvor mange søyler har islam, og hva er de?* *ج٧ -
+                  أَرْكَانُ الإِسْلَامِ خَمْسَةٌ، وَهِيَ:* *Svar 7: Islams
+                  søyler er fem, og de er:* ١. شَهَادَةُ أَنْ لَا إِلَهَ إِلَّا
+                  اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ 1. Å vitne at det
+                  ikke finnes noen gud unntatt Allah, og at Muhammed er Allahs
+                  sendebud. ٢. وَإِقَامُ الصَّلَاةِ 2\. Å etablere bønnen. ٣.
+                  وَإِيتَاءُ الزَّكَاةِ 3\. Å betale den pålagte veldedigheten
+                  (zakat). ٤. وَصَوْمُ رَمَضَانَ 4\. Å faste i måneden Ramadan.
+                  ٥. وَحَجُّ البَيْتِ لِمَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا 5\. Å
+                  utføre pilegrimsreisen (hajj) til Huset (Kaba) for den som har
+                  mulighet til det. ### *س٨ - كَمْ أَرْكَانُ الإِيمَانِ؟ وَمَا
+                </p>
+                <p>
+                  هِيَ؟* *Spørsmål 8: Hvor mange søyler har troen (iman), og hva
+                  er de?* *ج٨ - أَرْكَانُ الإِيمَانِ سِتَّةٌ، وَهِيَ:* *Svar 8:
+                  Troens søyler er seks, og de er:* ١. أَنْ تُؤْمِنَ بِاللَّهِ
+                  1. Å tro på Allah ٢. وَمَلَائِكَتِهِ 2\. Og Hans engler ٣.
+                  وَكُتُبِهِ 3\. Og Hans bøker ٤. وَرُسُلِهِ 4\. Og Hans
+                  sendebud ٥. وَالْيَوْمِ الآخِرِ 5\. Og den siste dagen ٦.
+                  وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ 6\. Og å tro på
+                  forutbestemmelsen, det gode og det onde av den. ### *س٩ - مَا
+                  هُوَ الإِحْسَانُ؟* *Spørsmål 9: Hva er ihsan
+                  (gudsfrykt/perfekt tro)?* *ج٩ - الإِحْسَانُ أَنْ تَعْبُدَ
+                  اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ
+                  فَإِنَّهُ يَرَاكَ.* *Svar 9: Ihsan er å tilbe Allah som om du
+                  ser Ham, og selv om du ikke ser Ham, så vet du at Han ser
+                  deg.* ### *س١٠ - مَا مَعْنَى لَا إِلَهَ إِلَّا اللَّهُ؟*
+                  *Spørsmål 10: Hva betyr "La ilaha illa Allah"?* *ج١٠ -
+                  مَعْنَاهَا: لَا مَعْبُودَ بِحَقٍّ إِلَّا اللَّهُ.* *Svar 10:
+                  Det betyr: Det finnes ingen som med rett kan tilbes unntatt
+                  Allah.*
+                </p>
+                <button class="btn quiz__btn" data-quiz="QleksjonTo">
+                  Ta quiz
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <div class="wrapper">
+            <div class="popup">
+              <span class="popupclose" style="cursor: pointer; float: right"
+                >X</span
+              >
+              <div class="popup-content">
+                <div
+                  id="quiz-result"
+                  style="
+                    display: none;
+                    padding: 10px;
+                    background: #e0ffe0;
+                    border-left: 5px solid green;
+                    margin-bottom: 1rem;
+                  "
+                ></div>
+                <form id="quiz-form">
+                  <div id="quiz"></div>
+                  <div class="quiz-buttons" style="margin-top: 1rem">
+                    <button type="button" id="prevBtn">Forrige</button>
+                    <button type="button" id="nextBtn">Neste</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"> <h4>DugsiOnline</h4></a>
+          <p>
+            En nettbasert plattform for islamsk læring – tilgjengelig for alle,
+            uansett hvor du er.
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="../about.html">Om Dugsien</a></li>
+            <li><a href="../courses.html">Undervisning</a></li>
+            <li><a href="../contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <p>+01234567</p>
+          <p>dugsi@hotmail.no</p>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"> <i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>copyroght &copy; DugsiOnline</small>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <script src="qadar.js"></script>
+  </body>
+</html>
+
+
+
+ 

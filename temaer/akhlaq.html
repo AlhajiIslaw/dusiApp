@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dugsi Quraan Online</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <style>
+      body .quran__container {
+        display: grid;
+        grid-template-rows: auto 1fr auto; /* nav | content | footer */
+        min-height: 100vh;
+      }
+      .quran__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+
+      body .quran__container h4{
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+
+      
+      body .quran__container p{
+      font-size: 1rem;
+        
+      }
+
+      .wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+      }
+
+      .popup {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        position: relative;
+        background: white;
+        color: red;
+      }
+
+      .popupclose {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 2rem;
+      }
+
+      @media screen and (max-width: 800px) {
+        .quran__container {
+          grid-template-columns: 1fr;
+        }
+
+        .quran__container h4,
+        p {
+          margin: 1rem 0;
+        }
+      }
+      .category__link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+
+      .category__link:hover .category {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"> <h4>DugsiOnline</h4></a>
+        <ul class="nav__menu">
+          <li><a href="../index.html">Hjem</a></li>
+          <li><a href="../about.html">Om Dugsien</a></li>
+          <li><a href="../courses.html">Undervisning</a></li>
+          <li><a href="../contact.html">Kontakt</a></li>
+        </ul>
+        <button id="open-menu-btn">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button id="close-menu-btn">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
+    </nav>
+
+    <section class="Aqidah">
+      <div class="container quran__container">
+        <div class="aqidah__left">
+          <h4>🌿 Akhlaaq – Islamsk Etikk og God Karakter</h4>
+          <p>
+           Akhlaaq refererer til islams lære om moral og karakter. Islam legger stor vekt på hvordan vi oppfører oss mot andre – med ærlighet, respekt, tålmodighet og barmhjertighet. Profeten Muhammad ﷺ er det beste eksemplet på god akhlaaq, og han sa: "Jeg er sendt for å fullkommengjøre god karakter." Å utvikle god akhlaaq er like viktig som å utføre bønn eller faste, fordi det speiler troens indre verdi i ytre handlinger.
+
+
+          </p>
+        </div>
+
+        <div class="aqidah__right">
+          <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+              <h4>Leksjon-1:Akhlaaq</h4>
+              <div class="faq__answer">
+                <p>
+                  les mer om Akhlaaq
+                </p>
+
+                
+                <button class="btn quiz__btn" data-quiz="akhlaaq">
+                  Ta quiz
+                </button>
+              </div>
+            </div>
+          </article>
+
+         
+
+          <div class="wrapper">
+            <div class="popup">
+              <span class="popupclose" style="cursor: pointer; float: right"
+                >X</span
+              >
+              <div class="popup-content">
+                <div
+                  id="quiz-result"
+                  style="
+                    display: none;
+                    padding: 10px;
+                    background: #e0ffe0;
+                    border-left: 5px solid green;
+                    margin-bottom: 1rem;
+                  "
+                ></div>
+                <form id="quiz-form">
+                  <div id="quiz"></div>
+                  <div class="quiz-buttons" style="margin-top: 1rem">
+                    <button type="button" id="prevBtn">Forrige</button>
+                    <button type="button" id="nextBtn">Neste</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"> <h4>DugsiOnline</h4></a>
+          <p>
+            En nettbasert plattform for islamsk læring – tilgjengelig for alle,
+            uansett hvor du er.
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="../about.html">Om Dugsien</a></li>
+            <li><a href="../courses.html">Undervisning</a></li>
+            <li><a href="../contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <p>+01234567</p>
+          <p>dugsi@hotmail.no</p>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"> <i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>copyroght &copy; DugsiOnline</small>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <script src="qadar.js"></script>
+  </body>
+</html>
+
+
+
+ 
