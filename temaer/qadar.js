@@ -352,6 +352,7 @@ QleksjonSeks:[
   }
 ],
 
+// finish adidah quiz
 
   hadith: [
     {
