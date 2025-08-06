@@ -261,6 +261,97 @@ QleksjonFem:[
     "correct": 0
   }
 ],
+QleksjonSeks:[
+  {
+    "question": "Hva er nytten av tawhid?",
+    "options": [
+      "Trygghet i dette livet og rikdom i det neste",
+      "Trygghet i det neste liv, veiledning i dette livet og tilgivelse for synder",
+      "Tilgang til paradis uten dom"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva er shirk?",
+    "options": [
+      "Å følge Profeten",
+      "Å tilbe Allah alene",
+      "Å sette likestilte med Allah, selv om det er Han som har skapt deg"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Hva er konsekvensen av shirk?",
+    "options": [
+      "Man må faste mer",
+      "Å bli nektet paradis og evig straff i Ilden",
+      "Man mister veiledning i dette livet"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hva betyr 'taghout'?",
+    "options": [
+      "Noe man elsker over alt annet",
+      "Alt som tilbes, følges eller adlydes uten rett",
+      "Navn på en ond ånd i islamsk tro"
+    ],
+    "correct": 1
+  }
+],
+ QleksjonSyf :[
+  {
+    question: "Hvor mange ting nevnes som ødelegger islam?",
+    options: [
+      "Fem",
+      "Sju",
+      "Ti",
+      "Tolv"
+    ],
+    correct: 2
+  },
+  {
+    question: "Hva er det første som nevnes som ødelegger islam?",
+    options: [
+      "Å bruke trolldom",
+      "Å tilbe noe annet enn Allah",
+      "Å gjøre narr av religionen",
+      "Å hate det Profeten kom med"
+    ],
+    correct: 1
+  },
+  {
+    question: "Hva sies om å ikke tro at avgudsdyrkere er utenfor islam?",
+    options: [
+      "Det er en stor synd og regnes som en av de ti tingene som ødelegger islam",
+      "Det er en liten synd",
+      "Det er bare feil, men ikke alvorlig",
+      "Det har ingen betydning"
+    ],
+    correct: 0
+  },
+  {
+    question: "Hva er konsekvensen av å gjøre narr av religionen?",
+    options: [
+      "Det er en liten synd",
+      "Det er en alvorlig synd og kan føre til at man ikke lenger regnes som muslim",
+      "Det er greit",
+      "Det er bare spøk"
+    ],
+    correct: 1
+  },
+  {
+    question: "Hva sier teksten om trolldom?",
+    options: [
+      "Det er akseptabelt i noen tilfeller",
+      "Det er en sunnah-handling",
+      "Det ødelegger islam",
+      "Det er bare en kulturell praksis"
+    ],
+    correct: 2
+  }
+],
+
 
   hadith: [
     {
