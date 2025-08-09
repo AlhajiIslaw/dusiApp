@@ -843,26 +843,34 @@ header{
 }
 
  .faq__answer p {
-            margin-bottom: 15px;
-            font-size: 20px;
-            padding: 0.7rem;
-            background: black;
-            line-height: 1.5rem;
-        }
-        .faq__answer .question {
-            font-weight: bold;
-             color: white;
-             font-weight: bold;
-        }
+    background-color: #1e1e1e; /* Softer dark gray */
+    color: #f8f9fa; /* Slightly warmer white */
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    line-height: 1.6; /* Better text breathing space */
+    font-size: 1.2rem; /* Slightly bigger */
+}
+       .faq__answer .question {
+    font-weight: bold;
+    color:  #f8f9fa; /* Warm yellow for emphasis */
+    text-align: right;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    border-bottom: 2px solid rgba(255, 221, 87, 0.3);
+    padding-bottom: 4px;
+}
       .faq__answer  .answer {
             color: #fff;
         }
         .norwegian {
-            font-size: 18px;
-            color: white;
-            direction: ltr;
-            text-align: left;
-            margin-top: 5px;
+             background-color: #1e1e1e; /* Softer dark gray */
+    color: #f8f9fa; /* Slightly warmer white */
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    line-height: 1.6; /* Better text breathing space */
+    font-size: 1.2rem; /* Slightly bigger */
         }
 
 
