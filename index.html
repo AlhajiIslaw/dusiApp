@@ -1,385 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dugsi Quraan Online ah</title>
-    <link rel="stylesheet" href="./css/style.css">
-     <!-- google fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- icons -->
-     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
 
-     <!-- swiper js -->
+    <!-- swiper js -->
 
-     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-
-
-    </head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <nav>
-        <div class="container nav__container">
-            <a href="index.html"> <h4>QuranOnline</h4></a>
-            <ul class="nav__menu">
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="about.html">Om Oss</a></li>
-                <li><a href="courses.html">Undervisning</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-            <button id="open-menu-btn">
-                <i class="uil uil-bars"></i>
-            </button>
-             <button id="close-menu-btn">
-                <i class="uil uil-multiply"></i>
-            </button>
-        </div>
-
-       
+      <div class="container nav__container">
+        <a href="index.html"> <h4>QuranOnline</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="about.html">Om Oss</a></li>
+          <li><a href="courses.html">Undervisning</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+        <button id="open-menu-btn">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button id="close-menu-btn">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
     </nav>
 
     <!-- nav end -->
-     <!-- header start -->
+    <!-- header start -->
 
-     <header>
-        <div class="container header__container">
-            <div class="header__left">
-                <h1>Lær Qur’an hjemmefra</h1>
-                <p>
-                    Velkommen til DugsiOnline – en digital Qur’an-skole hvor du eller dine barn
-                    kan lære å lese og forstå Qur’anen med kvalifiserte lærere.
-                </p>
-                <a href="courses.html" class="btn btn-primary">Start Læringen</a>
-            </div>
-            <div class="header__right">
-                <div class="header__right-image">
-                    <img src="./images/online-teac.png" alt="Quran undervisning bild">
-                </div>
-
-            </div>
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Lær Qur’an hjemmefra</h1>
+          <p>
+            Velkommen til DugsiOnline – en digital Qur’an-skole hvor du eller
+            dine barn kan lære å lese og forstå Qur’anen med kvalifiserte
+            lærere.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Start Læringen</a>
         </div>
-     </header>
-
-     <!-- END header -->
-    
-    
-   <section class="courses">
-  <h2>Våre leksjoner</h2>
-  <div class="container courses__container1">
-    <div class="courses-left">
-    <div class="courses1">
-       <div class="course__images">
-        <img src="./images/quranteaching2.avif" alt="quran">
-      </div>
-    </div>
-    </div>
-    <div class="courses right">
-       
-     
-      <div class="course__infon">
-        <h4>Qur’an, Hadith og annen islamsk undervisning</h4>
-    <p>Lær å lese Qur’anen med riktig tajweed, forstå meningen bak versene, studér Profetens ﷺ sunnah, og få innsikt i islamske regler (fiqh) – og mye mer.</p>
-        <a href="courses.html" class="btn btn-primary">Les mer</a>
-      </div>
-    
-    </div>
-  
-
-  </div>
-</section>
-
-
-       <!-- ========end of courses========= -->
-
-        <section class="categories">
-        <div class="container categories__container">
-         <div class="categories__left">
-                <h3>Utforsk Islamsk Kunnskap</h3>
-<p>Fordyp deg i våre hovedemner – lær å lese Qur’anen, forstå troen, islamske regler og Profetens (ﷺ) liv.</p>
-                 <!-- <a href="./courses.html" class="btn">Les mer</a> -->
-            </div>
-            <div class="categories__right">
-                <a href="./temaer/hadith.html" class="category__link">
-                <article class="category">
-                    <span class="category__icon"><i class="uil uil-comment-alt-lines"></i></span>
-                    <h5>Hadith</h5>
-                    <p>Utforsk autentiske hadither og lær hvordan Profeten ﷺ levde.</p>
-                </article></a>
-
-                 <a href="./temaer/aqidah.html" class="category__link">
-                <article class="category">
-                         <span class="category__icon"><i class="uil uil-lightbulb-alt"></i></span>
-                            <h5>Aqidah</h5>
-                            <p>Grunnleggende tro og forståelse av islamske læresetninger.</p>
-                </article> </a>
-                  
-                 <a href="./temaer/fiqh.html" class="category__link">
-                <article class="category">
-                    <span class="category__icon"><i class="uil uil-balance-scale"></i></span>
-                    <h5>Fiqh</h5>
-                    <p>Daglige regler og praktiske aspekter ved islam i hverdagen.</p>
-                </article></a>
-
-                 <a href="./temaer/sirah.html" class="category__link">
-                <article class="category">
-                    <span class="category__icon"><i class="uil uil-user-nurse"></i></span>
-                    <h5>Sirah</h5>
-                    <p>Lær om Profeten Muhammads ﷺ liv og hans historiske reise.</p>
-                </article></a>
-
-                  <a href="./temaer/tafsir.html" class="category__link">
-                <article class="category">
-                     <span class="category__icon"><i class="uil uil-books"></i></span>
-                    <h5>Tafsir</h5>
-                    <p>Forståelsen og tolkningen av Qur’anen vers for vers.</p>
-                </article></a>
-                 
-                 <a href="./temaer/akhlaq.html" class="category__link">
-                <article class="category">
-                                    <span class="category__icon"><i class="uil uil-smile-beam"></i></span>
-                <h5>Akhlaaq</h5>
-                <p>Lær god islamsk oppførsel, høflighet og hvordan man behandler andre med respekt.</p>
-                </article></a>
-
-        
-            </div>
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/online-teac.png" alt="Quran undervisning bild" />
+          </div>
         </div>
-     </section>
+      </div>
+    </header>
 
-     <!-- ========end of category========= -->
+    <!-- END header -->
 
-  <section class="faqs">
-  <h2>Islamske verdier og konsepter</h2>
-  <div class="container faqs__container">
+    <section class="courses">
+      <h2>Våre leksjoner</h2>
+      <div class="container courses__container1">
+        <div class="courses-left">
+          <div class="courses1">
+            <div class="course__images">
+              <img src="./images/quranteaching2.avif" alt="quran" />
+            </div>
+          </div>
+        </div>
+        <div class="courses right">
+          <div class="course__infon">
+            <h4>Qur’an, Hadith og annen islamsk undervisning</h4>
+            <p>
+              Lær å lese Qur’anen med riktig tajweed, forstå meningen bak
+              versene, studér Profetens ﷺ sunnah, og få innsikt i islamske
+              regler (fiqh) – og mye mer.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Les mer</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ========end of courses========= -->
 
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h3>Utforsk Islamsk Kunnskap</h3>
+          <p>
+            Fordyp deg i våre hovedemner – lær å lese Qur’anen, forstå troen,
+            islamske regler og Profetens (ﷺ) liv.
+          </p>
+          <!-- <a href="./courses.html" class="btn">Les mer</a> -->
+        </div>
+        <div class="categories__right">
+          <a href="./temaer/hadith.html" class="category__link">
+            <article class="course">
+              <div class="course__info">
+                <span class="category__icon"
+                ><i class="uil uil-comment-alt-lines"></i
+              ></span>
+              <h4>Hadith</h4>
+              <p>
+                Utforsk autentiske hadither og lær hvordan Profeten ﷺ levde.
+              </p>
+              </div>
+            </article></a
+          >
+
+          <a href="./temaer/aqidah.html" class="category__link">
+            <article class="course">
+             <div class="course__info">
+               <span class="category__icon"
+                ><i class="uil uil-lightbulb-alt"></i
+              ></span>
+              <h4>Aqidah</h4>
+              <p>Grunnleggende tro og forståelse av islamske læresetninger.</p>
+             </div>
+            </article>
+          </a>
+
+          <a href="./temaer/fiqh.html" class="category__link">
+            <article class="course">
+              <div class="course__info">
+                <span class="category__icon"
+                ><i class="uil uil-balance-scale"></i
+              ></span>
+              <h4>Fiqh</h4>
+              <p>Daglige regler og praktiske aspekter ved islam i hverdagen.</p>
+              </div>
+            </article></a
+          >
+
+          <a href="./temaer/sirah.html" class="category__link">
+            <article class="course">
+              <div class="course__info">
+                <span class="category__icon"
+                ><i class="uil uil-user-nurse"></i
+              ></span>
+              <h4>Sirah</h4>
+              <p>Lær om Profeten Muhammads ﷺ liv og hans historiske reise.</p>
+              </div>
+            </article></a
+          >
+
+          <a href="./temaer/tafsir.html" class="category__link">
+            <article class="course">
+             <div class="course__info">
+               <span class="category__icon"><i class="uil uil-books"></i></span>
+              <h4>Tafsir</h4>
+              <p>Forståelsen og tolkningen av Qur’anen vers for vers.</p>
+             </div>
+            </article></a
+          >
+
+          <a href="./temaer/akhlaq.html" class="category__link">
+            <article class="course">
+             <div class="course__info">
+               <span class="category__icon"
+                ><i class="uil uil-smile-beam"></i
+              ></span>
+              <h4>Akhlaaq</h4>
+              <p>
+                Lær god islamsk oppførsel, høflighet og hvordan man behandler
+                andre med respekt.
+              </p>
+             </div>
+            </article></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========end of category========= -->
+
+    <section class="faqs">
+      <h2>Islamske verdier og konsepter</h2>
+      <div class="container faqs__container">
         <div class="faq__right">
-     
-        <img src="./images/quranteaching.avif" alt="Islamske verdier">
-      
-
-    
-    </div>
-     <div class="faq__left">
-        <h4>Lær om viktige begreper i islam</h4>
-        <p>
-          Utforsk sentrale islamske begreper og verdier som former tro, praksis og samfunn. Forstå betydningen av ord som *Taqwa*, *Hijab*, *Tawakul*, *Ummah* og mange flere.
-        </p>
-        <a href="./temaer/begreper.html" class="btn">Les mer</a>
-      </div>
-
-   
-  </div>
-</section>
-
-
-       <!-- ========end of faqs========= -->
-
-   <section class="container testimonials__container mySwiper">
-       <h2>Lær å be</h2>
-  <p style="text-align: center;">Her kan du lære de ulike delene av bønnen – steg for steg, fra starten til avslutningen.</p>
-  <div class="swiper-wrapper">
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/takbir.avif" alt="takbir">
-      </div>
-      <div class="testimonial__info">
-        <h5>Takbiratul Ihram</h5>
-        <small>Å starte bønnen</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Bønnen begynner med å løfte hendene og si: <strong>“Allahu Akbar”</strong> – dette markerer inngangen til salah.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/qiyam.jpeg" alt="qiyam">
-      </div>
-      <div class="testimonial__info">
-        <h5>Qiyam</h5>
-        <small>Stående stilling</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Man står oppreist og resiterer <strong>Al-Fatiha</strong> og en annen surah fra Koranen, med konsentrasjon og ydmykhet.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/ruku.jpg" alt="ruku">
-      </div>
-      <div class="testimonial__info">
-        <h5>Ruku</h5>
-        <small>Bøyd stilling</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Bøy deg forover med hendene på knærne og si: <strong>“Subhana Rabbiyal ‘Azim”</strong> – Ære være min Herre, den Mektige.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/ididal.jpeg" alt="standing-after-ruku">
-      </div>
-      <div class="testimonial__info">
-        <h5>I'tidal</h5>
-        <small>Reise seg etter ruku</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Reis deg opp igjen og si: <strong>“Sami’Allahu liman hamidah”</strong> og deretter <strong>“Rabbana lakal hamd”</strong>.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/sujud.avif" alt="sujud">
-      </div>
-      <div class="testimonial__info">
-        <h5>Sujud</h5>
-        <small>Prostrasjon</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Legg deg med panne og nese til bakken og si: <strong>“Subhana Rabbiyal A‘la”</strong> – Ære være min Herre, den Høyeste.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/jalsa.jpeg" alt="sitting-between-sujood">
-      </div>
-      <div class="testimonial__info">
-        <h5>Jalsa</h5>
-        <small>Sitt mellom to sujud</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Sett deg opp mellom de to sujud og si: <strong>“Rabbighfir li”</strong> – Herre, tilgi meg.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/tashahud.avif" alt="tashahhud">
-      </div>
-      <div class="testimonial__info">
-        <h5>Tashahhud</h5>
-        <small>Sittende vitnesbyrd</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          I siste sittende stilling leser man <strong>tashahhud</strong> og sender fred og velsignelser over Profeten Muhammad ﷺ.
-        </p>
-      </div>
-    </article>
-
-    <article class="testimonial swiper-slide">
-      <div class="avtar">
-        <img src="./images/salam.jpeg" alt="salam">
-      </div>
-      <div class="testimonial__info">
-        <h5>Salam</h5>
-        <small>Avslutning på bønnen</small>
-      </div>
-      <div class="testimonial__body">
-        <p>
-          Bønnen avsluttes med å vende hodet til høyre og venstre og si: <strong>“Assalamu ‘alaykum wa rahmatullah”</strong>.
-        </p>
-      </div>
-    </article>
-
-  </div>
-  <div class="swiper-pagination"></div>
-</section>
-
-     <!-- ========end of testimonial========= -->
-    
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__1">
-                <a href="index.html" class="footer__logo"> <h4>DugsiOnline</h4></a>
-                <p>En nettbasert plattform for islamsk læring – tilgjengelig for alle, uansett hvor du er.</p>
-
-            </div>
-            <div class="footer__2">
-                 <h4>Permalinks</h4>
-                <ul class="permalinks">
-                   <li><a href="index.html">Hjem</a></li>
-                <li><a href="about.html">Om Dugsien</a></li>
-                <li><a href="courses.html">Undervisning</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-                </ul>
-            </div>
-             <div class="footer__3">
-                <h4>Privacy</h4>
-                <ul class="privacy">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms and conditions</a></li>
-                    <li><a href="#">Refund Policy</a></li>
-                </ul>
-            </div>
-             <div class="footer__4">
-                <h4>Contact Us</h4>
-                <p>+4748436281</p>
-                <p>alhajiislaw@hotmail.com</p>
-
-                <ul class="footer__socials">
-                    <li> <a href="#"> <i class="uil uil-facebook-f"></i></a></li>
-                    <li> <a href="#"> <i class="uil uil-instagram-alt"></i></a></li>
-                    <li> <a href="#"> <i class="uil uil-twitter"></i></a></li>
-                    <li> <a href="#"> <i class="uil uil-linkedin-alt"></i></a></li>
-
-                </ul>
-            </div>
-
+          <img src="./images/quranteaching.avif" alt="Islamske verdier" />
         </div>
-         <div class="footer__copyright">
-                <small>copyroght &copy; DugsiOnline</small>
-            </div>
+        <div class="faq__left">
+          <h4>Lær om viktige begreper i islam</h4>
+          <p>
+            Utforsk sentrale islamske begreper og verdier som former tro,
+            praksis og samfunn. Forstå betydningen av ord som *Taqwa*, *Hijab*,
+            *Tawakul*, *Ummah* og mange flere.
+          </p>
+          <a href="./temaer/begreper.html" class="btn">Les mer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========end of faqs========= -->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Lær å be</h2>
+      <p style="text-align: center">
+        Her kan du lære de ulike delene av bønnen – steg for steg, fra starten
+        til avslutningen.
+      </p>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/takbir.avif" alt="takbir" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Takbiratul Ihram</h5>
+            <small>Å starte bønnen</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Bønnen begynner med å løfte hendene og si:
+              <strong>“Allahu Akbar”</strong> – dette markerer inngangen til
+              salah.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/qiyam.jpeg" alt="qiyam" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Qiyam</h5>
+            <small>Stående stilling</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Man står oppreist og resiterer <strong>Al-Fatiha</strong> og en
+              annen surah fra Koranen, med konsentrasjon og ydmykhet.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/ruku.jpg" alt="ruku" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Ruku</h5>
+            <small>Bøyd stilling</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Bøy deg forover med hendene på knærne og si:
+              <strong>“Subhana Rabbiyal ‘Azim”</strong> – Ære være min Herre,
+              den Mektige.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/ididal.jpeg" alt="standing-after-ruku" />
+          </div>
+          <div class="testimonial__info">
+            <h5>I'tidal</h5>
+            <small>Reise seg etter ruku</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Reis deg opp igjen og si:
+              <strong>“Sami’Allahu liman hamidah”</strong> og deretter
+              <strong>“Rabbana lakal hamd”</strong>.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/sujud.avif" alt="sujud" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Sujud</h5>
+            <small>Prostrasjon</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Legg deg med panne og nese til bakken og si:
+              <strong>“Subhana Rabbiyal A‘la”</strong> – Ære være min Herre, den
+              Høyeste.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/jalsa.jpeg" alt="sitting-between-sujood" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Jalsa</h5>
+            <small>Sitt mellom to sujud</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Sett deg opp mellom de to sujud og si:
+              <strong>“Rabbighfir li”</strong> – Herre, tilgi meg.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/tashahud.avif" alt="tashahhud" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Tashahhud</h5>
+            <small>Sittende vitnesbyrd</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              I siste sittende stilling leser man <strong>tashahhud</strong> og
+              sender fred og velsignelser over Profeten Muhammad ﷺ.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avtar">
+            <img src="./images/salam.jpeg" alt="salam" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Salam</h5>
+            <small>Avslutning på bønnen</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Bønnen avsluttes med å vende hodet til høyre og venstre og si:
+              <strong>“Assalamu ‘alaykum wa rahmatullah”</strong>.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- ========end of testimonial========= -->
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"> <h4>DugsiOnline</h4></a>
+          <p>
+            En nettbasert plattform for islamsk læring – tilgjengelig for alle,
+            uansett hvor du er.
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="about.html">Om Dugsien</a></li>
+            <li><a href="courses.html">Undervisning</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <p>+4748436281</p>
+          <p>alhajiislaw@hotmail.com</p>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"> <i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"> <i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>copyroght &copy; DugsiOnline</small>
+      </div>
     </footer>
 
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="./js/main.js"></script>
 
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
 
-      <!-- swiper js -->
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-     <script src="./js/main.js"></script>
-
-     <script>
-
-        var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-
-      breakpoints : {
-         600:{
-              slidesPerView: 2,
-         }
-      }
-    });
-
-     </script>
-</body>
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
 </html>
