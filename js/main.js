@@ -37,31 +37,32 @@ const menu = document.querySelector(".nav__menu");
 const menuBtn = document.querySelector("#open-menu-btn");
 const closeBtn = document.querySelector("#close-menu-btn");
 
-menuBtn.addEventListener("click", () =>{
-
-   menu.style.display ="flex"
-   closeBtn.style.display = "inline-block";
-   menuBtn.style.display ="none"
-
+// Open the menu when the menu button is clicked
+menuBtn.addEventListener("click", () => {
+    menu.classList.add("open"); // Show menu with sliding animation
+    closeBtn.classList.add("open"); // Show close button
+    menuBtn.style.display = "none"; // Hide the open menu button
 });
 
-const closeNav = () =>{
-   menu.style.display ="none";
-   closeBtn.style.display = "none";
-   menuBtn.style.display ="inline-block";
-}
+// Close the menu when the close button is clicked
+const closeNav = () => {
+    menu.classList.remove("open"); // Hide menu with sliding animation
+    closeBtn.classList.remove("open"); // Hide close button
+    menuBtn.style.display = "inline-block"; // Show the open menu button again
+};
 
+// Event listener for the close button
 closeBtn.addEventListener("click", closeNav);
 
-
+// Close the menu if a click happens outside of the menu or buttons
 document.addEventListener("click", (e) => {
-  const isMenuOpen = menu.style.display === "flex";
-  const isClickInsideMenu = menu.contains(e.target);
-  const isClickOnButtons = menuBtn.contains(e.target) || closeBtn.contains(e.target);
+    const isMenuOpen = menu.classList.contains("open");
+    const isClickInsideMenu = menu.contains(e.target);
+    const isClickOnButtons = menuBtn.contains(e.target) || closeBtn.contains(e.target);
 
-  if (isMenuOpen && !isClickInsideMenu && !isClickOnButtons) {
-    closeNav();
-  }
+    if (isMenuOpen && !isClickInsideMenu && !isClickOnButtons) {
+        closeNav();
+    }
 });
 
 
