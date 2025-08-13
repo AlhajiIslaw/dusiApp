@@ -425,8 +425,13 @@ color: #4b5563;
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background: var(--color-primary);
-    cursor: pointer;
+    background-color: #f9f9f9;    cursor: pointer;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+     transition: all 0.3s ease;
+     color: black;
+    
 }
 
 .faq h4{
@@ -435,9 +440,15 @@ color: #4b5563;
 }
 
 .faq__icon{
-    align-self: flex-start;
-    font-size: 1.2rem;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  transition: transform 0.3s ease;
 }
+.faq__icon i {
+  transition: transform 0.3s ease;
+}
+
 
 .faq p,.quiz__btn{
     margin-top: 0.8rem;
@@ -473,6 +484,54 @@ color: #4b5563;
 
 .faq__left p{
     margin-bottom: 2rem;
+}
+
+
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2d3a45;
+}
+
+.faq__answer {
+  display: none;
+  padding-left: 20px;
+  color: #555;
+}
+
+.faq.open .faq__answer {
+  display: block;
+}
+
+.faq.open .faq__icon i {
+  transform: rotate(180deg); /* Rotate arrow when open */
+}
+
+.faq__icon i {
+  color: #007bff; /* Icon color */
+}
+
+.faq__icon:hover {
+  color: #0056b3;
+}
+
+.faq__answer p {
+  margin: 5px 0;
+}
+
+.faq__answer .question {
+  font-weight: bold;
+}
+
+.faq button {
+  background-color: #4f46e5;
+  color: white;
+  
+} 
+
+button:hover {
+  background-color: #218838;
 }
 
 /* ===========testimonial =========== */

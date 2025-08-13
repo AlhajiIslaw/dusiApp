@@ -11,25 +11,24 @@ window.addEventListener('scroll', () =>{
 // show/hide faq answer
 
 const faqs = document.querySelectorAll('.faq');
+
 faqs.forEach(faq => {
-   faq.addEventListener('click', ()=>{
-      faq.classList.toggle("open");
+    faq.addEventListener('click', () => {
+        faq.classList.toggle("open");
 
-      // change icon
+        // change icon
+        const i = faq.querySelector(".faq__icon i");
 
-      const i = faq.querySelector(".faq__icon i");
-      
-      if(i.className === "uil uil-plus"){
-         i.className = "uil uil-minus";
-          i.style.color ="red";
-      } else{
-          i.className = "uil uil-plus";
-          i.style.color ="";
-
-      }
-
-   })
+        if (i.className === "uil uil-arrow-down") {
+            i.className = "uil uil-arrow-up";
+            i.style.color = "red";  // Change color for "up" arrow
+        } else {
+            i.className = "uil uil-arrow-down";
+            i.style.color = "";  // Reset color for "down" arrow
+        }
+    });
 });
+
 
 // show / hide menu
 
