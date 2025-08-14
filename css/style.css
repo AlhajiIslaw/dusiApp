@@ -432,6 +432,7 @@ color: #4b5563;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
      color: black;
+     
     
 }
 
@@ -450,6 +451,7 @@ color: #4b5563;
 .faq__icon i {
   transition: transform 0.3s ease;
 }
+
 
 
 .faq p,.quiz__btn{
@@ -490,7 +492,7 @@ color: #4b5563;
 
 
 
-.faq-question {
+.faq .question {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -520,7 +522,7 @@ color: #4b5563;
 }
 
 .faq__answer p {
-  margin: 5px 0;
+  margin: 5px 10px;
 }
 
 .faq__answer .question {
@@ -1002,10 +1004,10 @@ color: #4b5563;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     line-height: 1.6; /* Better text breathing space */
     font-size: 1.2rem; /* Slightly bigger */
-    padding: 2rem;
+    padding: 2rem 0;
 }
     .faq__answer .question {
-    padding: 2rem;
+    padding: 2rem 0;
     font-weight: bold;
     color:  #f8f9fa; /* Warm yellow for emphasis */
     text-align: right;
