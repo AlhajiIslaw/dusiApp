@@ -354,7 +354,7 @@ QleksjonSeks:[
 
 // finish adidah quiz
 
-  hadith: [
+  hadith1: [
     {
       question: '1. Hva er Hadith?',
       options: ['Vers fra Koranen', 'Historier fra følgesvennene', 'Profetens ord, handlinger og godkjennelser'],
@@ -379,8 +379,143 @@ QleksjonSeks:[
       question: '5. Hvilket kriterium brukes for å vurdere Hadiths ekthet?',
       options: ['Lengde', 'Kildekjede og innhold', 'Oversettelse'],
       correct: 1
+    },  {
+      question: '6. Hva sa Allahs Sendebud (fvmh) om naboene?',
+      options: ['Vær god mot dine naboer', 'Hjelp ikke naboene hvis de ikke ber om det', 'Snakk ikke med naboene'],
+      correct: 0
+    },
+    {
+      question: '7. Hva er betydningen av "Ilm" i Islam?',
+      options: ['Kunnskap er bare for lærde', 'Sannelig, kunnskap kan bare komme gjennom læring', 'Kunnskap er farlig for troen'],
+      correct: 1
+    },
+    {
+      question: '8. Hva sa Profeten (fvmh) om å spise med venstre hånd?',
+      options: ['Spis alltid med venstre hånd', 'Spis med høyre hånd', 'Spis med begge hender'],
+      correct: 1
+    },
+    {
+      question: '9. Hva sa Allahs Sendebud (fvmh) om gjesping?',
+      options: ['Gjesping er et tegn på stor fromhet', 'Gjesping er fra Shaytan', 'Gjesping er sunnah'],
+      correct: 1
+    },
+  
+    {
+      question: '10. Hva sa Allahs Sendebud (fvmh) om å spre salam?',
+      options: ['Spre salam mellom dere', 'Ikke si salam til folk', 'Spre salam bare på fredag'],
+      correct: 0
+    },
+    {
+      question: '11. Hva sa Profeten (fvmh) om anger?',
+      options: ['Anger er sorg', 'Anger er en svakhet', 'Anger er et tegn på dyd'],
+      correct: 0
+    },
+    {
+      question: '12. Hva sa Profeten (fvmh) om å spise med høyre hånd?',
+      options: ['Spis med venstre hånd', 'Spis med begge hender', 'Spis med høyre hånd'],
+      correct: 2
     }
   ],
+  hadith2:[{
+      question: '1. Hva sa Allahs Sendebud (fvmh) om å begynne handlinger?',
+      options: ['Si «bismillah» (i Allahs navn)', 'Begynn med å si «alhamdulillah»', 'Begynn med å be om tilgivelse'],
+      correct: 0
+    },
+    {
+      question: '2. Hva sa Profeten (fvmh) om urettferdighet?',
+      options: ['Urettferdighet er en stor synd', 'Urettferdighet er et nødvendig onde', 'Urettferdighet er ikke så alvorlig'],
+      correct: 0
+    },
+    {
+      question: '3. Hva sa Allahs Sendebud (fvmh) om å bruke hendene?',
+      options: ['Pass på hendene deres', 'Bruk hendene alltid til å hjelpe andre', 'Bruk hendene til å beskytte deg selv'],
+      correct: 0
+    },
+    {
+      question: '4. Hva sa Profeten (fvmh) om anger?',
+      options: ['Anger er et tegn på svakhet', 'Anger er sorg, og er et tegn på ekte omvendelse', 'Anger er ikke nødvendig'],
+      correct: 1
+    },
+    {
+      question: '5. Hva sa Allahs Sendebud (fvmh) om å spionere på andre?',
+      options: ['Vi skal spionere på andre for å beskytte oss selv', 'Ikke spioner på hverandre', 'Vi bør informere myndighetene om alt vi ser'],
+      correct: 1
+    },
+    {
+      question: '6. Hva sa Profeten (fvmh) om å be om tillatelse?',
+      options: ['Be om tillatelse én gang', 'Be om tillatelse to ganger', 'Be om tillatelse tre ganger'],
+      correct: 2
+    },
+    {
+      question: '7. Hva sa Allahs Sendebud (fvmh) om fellesskap?',
+      options: ['Fellesskap er en byrde', 'I grupper er det barakah (velsignelse)', 'Fellesskap fører til ulykke'],
+      correct: 1
+    },
+    {
+      question: '8. Hva sa Profeten (fvmh) om å respektere tillit?',
+      options: ['Gi respekt til tillit', 'Tillit er bare for sterke mennesker', 'Tillit er ubetydelig'],
+      correct: 0
+    },
+    {
+      question: '9. Hva sa Allahs Sendebud (fvmh) om grådighet?',
+      options: ['Grådighet er ønsket av Allah', 'Pass opp for grådighet', 'Grådighet er et tegn på velstand'],
+      correct: 1
+    },
+    {
+      question: '10. Hva sa Profeten (fvmh) om moral?',
+      options: ['De beste blant dere er de med den beste moral', 'Moralen er uvesentlig i Islam', 'Moral er kun for de rike'],
+      correct: 0
+    }],
+   hadith3:[{
+      question: '1. Hva sa Allahs Sendebud (fvmh) om tro?',
+      options: ['Ingen av dere er troende før han elsker for sin bror det han elsker for seg selv', 'Tro er kun for de som ber mye', 'Tro er kun for de som fastet i Ramadan'],
+      correct: 0
+    },
+    {
+      question: '2. Hva sa Profeten (fvmh) om kunnskap?',
+      options: ['Kunnskap kommer gjennom læring', 'Kunnskap er ikke viktig i Islam', 'Kunnskap kan ikke bli oppnådd'],
+      correct: 0
+    },
+    {
+      question: '3. Hva sa Profeten (fvmh) om å rense munnen?',
+      options: ['Rens munnen deres med tannbørste', 'Unngå å bruke tannbørste', 'Rens munnen med vann'],
+      correct: 0
+    },
+    {
+      question: '4. Hva sa Allahs Sendebud (fvmh) om å spise?',
+      options: ['Spis med venstre hånd', 'Spis med høyre hånd', 'Spis med begge hender'],
+      correct: 1
+    },
+    {
+      question: '5. Hva sa Profeten (fvmh) om å spre fred?',
+      options: ['Spre salam blant dere', 'Spred ondskap', 'Spre kun bønnene'],
+      correct: 0
+    },
+    {
+      question: '6. Hva sa Allahs Sendebud (fvmh) om Ramadan?',
+      options: ['Ramadan er en velsignet måned', 'Ramadan er ikke viktig', 'Ramadan varer bare en uke'],
+      correct: 0
+    },
+    {
+      question: '7. Hva sa Profeten (fvmh) om gjesping?',
+      options: ['Gjesping er fra Shaytan', 'Gjesping er et tegn på helse', 'Gjesping er et tegn på glede'],
+      correct: 0
+    },
+    {
+      question: '8. Hva sa Allahs Sendebud (fvmh) om å lese Koranen?',
+      options: ['Les Koranen med vakre stemmer', 'Les Koranen uten forståelse', 'Les Koranen i stillhet'],
+      correct: 0
+    },
+    {
+      question: '9. Hva sa Profeten (fvmh) om regn?',
+      options: ['Be om fruktbart regn', 'Be om sterk regn', 'Be om tørke'],
+      correct: 0
+    },
+    {
+      question: '10. Hva sa Allahs Sendebud (fvmh) om troende mennesker?',
+      options: ['Den troende er sympatisk og lett å være sammen med', 'Den troende er aggressiv', 'Den troende er ensom'],
+      correct: 0
+    }],
   fiqh: [
     {
       question: '1. Hva betyr "Fiqh"?',
