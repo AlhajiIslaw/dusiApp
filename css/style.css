@@ -420,7 +420,7 @@ color: #4b5563;
 }
 
 .faq{
-    padding: 2rem;
+  
     display: flex;
     align-items: center;
     gap: 1.4rem;
@@ -522,7 +522,7 @@ color: #4b5563;
 }
 
 .faq__answer p {
-  margin: 5px 10px;
+  margin: 5px 0;
 }
 
 .faq__answer .question {
