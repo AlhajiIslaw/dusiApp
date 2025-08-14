@@ -425,14 +425,16 @@ color: #4b5563;
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background-color: #f9f9f9;    cursor: pointer;
+    background-color: #f9f9f9;    
+    cursor: pointer;
     border-bottom: 1px solid black;
     border-radius: 5px;
     margin-bottom: 1rem;
-     transition: all 0.3s ease;
+    transition: all 0.3s ease;
      color: black;
     
 }
+
 
 .faq h4{
     font-size: 1rem;
@@ -487,6 +489,7 @@ color: #4b5563;
 }
 
 
+
 .faq-question {
   font-size: 18px;
   font-weight: bold;
@@ -530,7 +533,7 @@ color: #4b5563;
   
 } 
 
-button:hover {
+.faq button:hover {
   background-color: #218838;
 }
 
@@ -999,8 +1002,10 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     line-height: 1.6; /* Better text breathing space */
     font-size: 1.2rem; /* Slightly bigger */
+    padding: 2rem;
 }
-       .faq__answer .question {
+    .faq__answer .question {
+    padding: 2rem;
     font-weight: bold;
     color:  #f8f9fa; /* Warm yellow for emphasis */
     text-align: right;
@@ -1013,7 +1018,7 @@ button:hover {
             color: #fff;
         }
         .norwegian {
-             background-color: #1e1e1e; /* Softer dark gray */
+    background-color: #1e1e1e; /* Softer dark gray */
     color: #f8f9fa; /* Slightly warmer white */
     border-radius: 8px;
     padding: 14px 16px;
