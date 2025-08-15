@@ -516,7 +516,195 @@ QleksjonSeks:[
       options: ['Den troende er sympatisk og lett å være sammen med', 'Den troende er aggressiv', 'Den troende er ensom'],
       correct: 0
     }],
-  fiqh: [
+ 
+  fiqhlesson1: [ // Tahara
+    {
+      question: '1. Hva betyr "Fiqh"?',
+      options: ['Tale', 'Praktisk forståelse av islamsk lov', 'Tilbedelse'],
+      correct: 1
+    },
+    {
+      question: '2. Hvilke kilder brukes i fiqh?',
+      options: ['Koranen og Hadith', 'Bibelen og Toraen', 'Avisartikler'],
+      correct: 0
+    },
+    {
+      question: '3. Hvilket område dekker fiqh?',
+      options: ['Bare bønn og faste', 'Alle aspekter av livet', 'Kun økonomi'],
+      correct: 1
+    },
+    {
+      question: '4. Hva er en "Madhhab"?',
+      options: ['Et arabisk språk', 'Et fiqh-læresystem', 'Et kapittel i Koranen'],
+      correct: 1
+    },
+    {
+      question: '5. Hvorfor er fiqh viktig?',
+      options: ['For å kjenne Allahs navn', 'For å vite hvordan man skal handle etter islamsk lov', 'For å lære arabisk grammatikk'],
+      correct: 1
+    }
+    ,{
+      question: '1. Hva betyr "Tahara"?',
+      options: ['Å vaske klær', 'Renselse fra urenhet', 'Å resitere Koranen'],
+      correct: 1
+    },
+    {
+      question: '2. Hvor mange typer vann finnes i fiqh?',
+      options: ['To', 'Fire', 'Seks'],
+      correct: 1
+    },
+    {
+      question: '3. Hvilket vann kan brukes til renselse?',
+      options: ['Regnvann', 'Vann med såpe', 'Brukt vann'],
+      correct: 0
+    },
+    {
+      question: '4. Hva er betingelsene for vann som kan brukes til wudu?',
+      options: ['Det må være klart og kaldt', 'Det må være rent og tillatt', 'Det må koke'],
+      correct: 1
+    },
+    {
+      question: '5. Hva betyr "Najasa"?',
+      options: ['Urenhet', 'Renselse', 'Tilbedelse'],
+      correct: 0
+    }
+  ],
+  lesson2: [ // Wudu
+    {
+      question: '1. Hva er wudu?',
+      options: ['Bønn', 'Rituell vask', 'Faste'],
+      correct: 1
+    },
+    {
+      question: '2. Hvor mange betingelser har wudu?',
+      options: ['Fem', 'Seks', 'Ni'],
+      correct: 2
+    },
+    {
+      question: '3. Hva er en betingelse for wudu?',
+      options: ['Bruke parfyme', 'Ha intensjon', 'Å si bismillah høyt'],
+      correct: 1
+    },
+    {
+      question: '4. Når må man ta wudu?',
+      options: ['Før bønn', 'Før man spiser', 'Før søvn'],
+      correct: 0
+    },
+    {
+      question: '5. Hva opphever wudu?',
+      options: ['Spising', 'Søvn', 'Å gå på toalettet'],
+      correct: 2
+    }
+  ],
+  lesson3: [ // Tayammum
+    {
+      question: '1. Hva er tayammum?',
+      options: ['En type bønn', 'Renselse med jord', 'Faste uten vann'],
+      correct: 1
+    },
+    {
+      question: '2. Når gjør man tayammum?',
+      options: ['Når man har mye vann', 'Når man er ren', 'Når vann ikke er tilgjengelig'],
+      correct: 2
+    },
+    {
+      question: '3. Hva bruker man for tayammum?',
+      options: ['Vann', 'Stein', 'Ren jord'],
+      correct: 2
+    },
+    {
+      question: '4. Hva opphever tayammum?',
+      options: ['Å finne vann', 'Å svette', 'Å spise'],
+      correct: 0
+    },
+    {
+      question: '5. Kan man gjøre tayammum for ghusl?',
+      options: ['Nei', 'Ja', 'Bare etter søvn'],
+      correct: 1
+    }
+  ],
+  lesson4: [ // Salah Intro
+    {
+      question: '1. Hva er salah?',
+      options: ['En form for faste', 'En rituell tilbedelse', 'Å gi zakah'],
+      correct: 1
+    },
+    {
+      question: '2. Hvem må be?',
+      options: ['Alle mennesker', 'Bare barn', 'Hver voksen muslim'],
+      correct: 2
+    },
+    {
+      question: '3. Hvor mange betingelser har salah?',
+      options: ['Åtte', 'Fem', 'Ti'],
+      correct: 0
+    },
+    {
+      question: '4. En betingelse for bønn er...',
+      options: ['Å være tørst', 'Å være ren', 'Å være trøtt'],
+      correct: 1
+    },
+    {
+      question: '5. Man må vende seg mot...',
+      options: ['Øst', 'Ka\'ba (Qibla)', 'Soloppgangen'],
+      correct: 1
+    }
+  ],
+  lesson5: [ // Salah - Søyler
+    {
+      question: '1. Hvor mange søyler har bønnen?',
+      options: ['12', '14', '10'],
+      correct: 1
+    },
+    {
+      question: '2. Hvilken av disse er en søyle i salah?',
+      options: ['Å spise før bønn', 'Ruku\'', 'Sitte i moskeen'],
+      correct: 1
+    },
+    {
+      question: '3. Hva er Takbiratul-Ihram?',
+      options: ['Siste del av bønnen', 'Første "Allahu Akbar"', 'En hadith'],
+      correct: 1
+    },
+    {
+      question: '4. Hva må man lese i salah?',
+      options: ['En bok', 'Fatiha', 'Navnene på profetene'],
+      correct: 1
+    },
+    {
+      question: '5. Hva betyr tartib og muwalah?',
+      options: ['Å gjøre ting i rekkefølge og uten avbrudd', 'Å hoppe over deler', 'Å be høyt'],
+      correct: 0
+    }
+  ],
+  lesson6: [ // Mubtilat as-Salah
+    {
+      question: '1. Hva gjør bønnen ugyldig?',
+      options: ['Å lese Fatiha', 'Å snakke med vilje', 'Å gjøre sujood'],
+      correct: 1
+    },
+    {
+      question: '2. Er det lov å spise under bønn?',
+      options: ['Ja', 'Nei', 'Bare etter ruku\''],
+      correct: 1
+    },
+    {
+      question: '3. Hva skjer om man mister wudu under salah?',
+      options: ['Ingenting', 'Bønnen blir ugyldig', 'Man ber raskere'],
+      correct: 1
+    },
+    {
+      question: '4. Hva hvis man med vilje viser awrah under salah?',
+      options: ['Bønnen fortsetter', 'Den blir ugyldig', 'Det er belønnet'],
+      correct: 1
+    },
+    {
+      question: '5. Hva er den mest alvorlige som ugyldiggjør salah?',
+      options: ['Å glemme ruku\'', 'Å le', 'Frafall fra islam'],
+      correct: 2
+    }
+  ],
+  lesson7: [ // Fiqh generelt
     {
       question: '1. Hva betyr "Fiqh"?',
       options: ['Tale', 'Praktisk forståelse av islamsk lov', 'Tilbedelse'],
@@ -543,6 +731,232 @@ QleksjonSeks:[
       correct: 1
     }
   ],
+   QleksjonZakat : [
+  {
+    question: '1. Hva er zakat?',
+    options: [
+      'En frivillig gave til moskeen',
+      'En obligatorisk andel som gis fra spesifikk rikdom til spesifikke grupper',
+      'En bønn man leser i Ramadan'
+    ],
+    correct: 1
+  },
+  {
+    question: '2. På hvem er zakat obligatorisk?',
+    options: [
+      'Alle mennesker',
+      'Kun de som er rike og ikke muslimer',
+      'En fri muslim som eier minst nisab'
+    ],
+    correct: 2
+  },
+  {
+    question: '3. Hvor mange betingelser må være oppfylt for at zakat skal være obligatorisk?',
+    options: ['3', '4', '5'],
+    correct: 2
+  },
+  {
+    question: '4. Hva betyr "nisab"?',
+    options: [
+      'Et arabisk mål på vann',
+      'Minimumsformue man må eie for at zakat skal være påkrevd',
+      'Et annet navn på bønn'
+    ],
+    correct: 1
+  },
+  {
+    question: '5. En av betingelsene for zakat er at det må ha gått:',
+    options: ['3 måneder', '6 måneder', '1 helt år'],
+    correct: 2
+  }
+],
+QleksjonZakatTo: [
+  {
+    question: '1. På hvilke typer rikdom må zakat betales?',
+    options: [
+      'Bare penger',
+      'Fem typer rikdom som kameler, gull, jordbruksprodukter, frukt og handelsvarer',
+      'Kun kameler og sauer'
+    ],
+    correct: 1
+  },
+  {
+    question: '2. Hva menes med "الأَنْعَامُ" i sammenheng med zakat?',
+    options: [
+      'Gull og sølv',
+      'Beitedyr som kameler, kyr og sauer',
+      'Jordbruksprodukter'
+    ],
+    correct: 1
+  },
+  {
+    question: '3. Hvem er "العَامِلُونَ عَلَيْهَا"?',
+    options: [
+      'De som mottar zakat',
+      'De som samler inn zakat',
+      'De som gir zakat'
+    ],
+    correct: 1
+  },
+  {
+    question: '4. Til hvem skal zakat gis for å "frigjøre slaver"?',
+    options: [
+      'فِي الرِّقَابِ',
+      'الفُقَرَاءُ',
+      'المَسَاكِينُ'
+    ],
+    correct: 0
+  },
+  {
+    question: '5. Hvilken gruppe inkluderer "reisende i nød" som kan motta zakat?',
+    options: [
+      'ابْنُ السَّبِيلِ',
+      'المُؤَلَّفَةُ قُلُوبُهُمْ',
+      'الغَارِمُونَ'
+    ],
+    correct: 0
+  }
+],
+QleksjonSawm: [
+  {
+    question: '1. Hva betyr fasten (الصَّوْمُ)?',
+    options: [
+      'Å spise bare én gang om dagen',
+      'Å avstå fra alt som bryter fasten fra daggry til solnedgang med intensjon',
+      'Å faste kun på fredager'
+    ],
+    correct: 1
+  },
+  {
+    question: '2. Hvilken av disse er IKKE en betingelse for at faste skal være påbudt?',
+    options: [
+      'Å være muslim',
+      'Å være i stand til å faste',
+      'Å være over 50 år gammel'
+    ],
+    correct: 2
+  },
+  {
+    question: '3. Hva er de to søylene (arkan) i fasten?',
+    options: [
+      'Intensjon (niyyah) og å avstå fra alt som bryter fasten',
+      'Å faste på ramadan og å be daglig',
+      'Å gi zakat og utføre hajj'
+    ],
+    correct: 0
+  },
+  {
+    question: '4. Når starter og slutter fasten hver dag?',
+    options: [
+      'Fra solnedgang til midnatt',
+      'Fra daggry (fajr) til solnedgang (maghrib)',
+      'Fra middag til solnedgang'
+    ],
+    correct: 1
+  },
+  {
+    question: '5. Hva er et gyldig unntak for å ikke faste?',
+    options: [
+      'Å være på reise eller ha menstruasjon',
+      'Å være trøtt',
+      'Å ikke like maten'
+    ],
+    correct: 0
+  }
+],
+QleksjonSawm2: [
+  {
+    question: '1. Hvor mange ting bryter fasten ifølge leksjonen?',
+    options: ['8', '10', '12'],
+    correct: 1
+  },
+  {
+    question: '2. Hvilket av disse bryter fasten?',
+    options: ['Å spise med vilje', 'Å drømme om mat', 'Å tenke på mat'],
+    correct: 0
+  },
+  {
+    question: '3. Hva bryter fasten ved berøring?',
+    options: ['Ingen ting', 'Utløsning som følge av berøring', 'Bare ufrivillig berøring'],
+    correct: 1
+  },
+  {
+    question: '4. Hva med næringsinjeksjoner (intravenøse næringsstoffer)?',
+    options: ['Bryter fasten', 'Bryter ikke fasten', 'Det er opp til personen selv'],
+    correct: 0
+  },
+  {
+    question: '5. Hvilken handling bryter fasten og er en religiøs handling?',
+    options: ['Å forlate islam (frafall)', 'Å be ekstra bønner', 'Å gi zakat'],
+    correct: 0
+  }
+],
+hajjQuiz: [
+  {
+    question: '1. Hva er Hajj?',
+    options: [
+      'Å reise til Allahs hellige hus (Ka\'bah) for å utføre bestemte rituelle handlinger',
+      'Å faste i en måned',
+      'Å be fem ganger om dagen'
+    ],
+    correct: 0
+  },
+  {
+    question: '2. Hvor mange betingelser finnes det for å utføre Hajj?',
+    options: [
+      'Fire',
+      'Seks',
+      'Tre'
+    ],
+    correct: 1
+  },
+  {
+    question: '3. Hva er en av betingelsene for Hajj?',
+    options: [
+      'Å være muslim',
+      'Å ha kjøpt et hus i Mekka',
+      'Å kunne lese Koranen uten feil'
+    ],
+    correct: 0
+  },
+  {
+    question: '4. Hvor mange søyler (grunnleggende plikter) har Hajj?',
+    options: [
+      'Tre',
+      'Fire',
+      'Fem'
+    ],
+    correct: 1
+  },
+  {
+    question: '5. Hva er en av Hajjens søyler?',
+    options: [
+      'Faste i ti dager',
+      'Ihram med intensjon',
+      'Gå til Mekka når som helst på året'
+    ],
+    correct: 1
+  },
+  {
+    question: '6. Hvor mange typer Hajj finnes det?',
+    options: [
+      'To',
+      'Tre',
+      'Fire'
+    ],
+    correct: 1
+  },
+  {
+    question: '7. Hvilken type Hajj inkluderer både Umrah og Hajj med to ihram?',
+    options: [
+      'Ifrad',
+      'Qiran',
+      'Tamattu\''
+    ],
+    correct: 2
+  }
+],
+
   akhlaaq: [
     {
       question: '1. Hva betyr "Akhlaaq"?',
@@ -570,7 +984,8 @@ QleksjonSeks:[
       correct: 2
     }
   ],
-  sirah: [
+
+  sirah1: [
     {
       question: '1. Hva betyr "Sirah"?',
       options: ['Bønnerop', 'Profetens livshistorie', 'En arabisk bok'],
@@ -597,6 +1012,75 @@ QleksjonSeks:[
       correct: 1
     }
   ],
+  sirah2: [
+  // Leksjon 1 – Profetens navn, fødsel og liv
+  {
+    question: '1. Hva er Profetens fulle navn?',
+    options: [
+      'Muhammad bin Ali bin Talib',
+      'Muhammad bin Abdullah bin Abdul-Muttalib',
+      'Muhammad bin Umar bin Khattab'
+    ],
+    correct: 1
+  },
+  {
+    question: '2. Når ble Profeten ﷺ født?',
+    options: [
+      'År 100 etter Hijrah',
+      'I elefantåret',
+      'I året da Kaba ble bygd'
+    ],
+    correct: 1
+  },
+  {
+    question: '3. Hvor ble Profeten ﷺ født?',
+    options: ['Medina', 'Mekka', 'Taif'],
+    correct: 1
+  },
+  {
+    question: '4. Hvor døde Profeten ﷺ?',
+    options: ['Damaskus', 'Mekka', 'Medina'],
+    correct: 2
+  },
+  {
+    question: '5. Hvor gammel ble Profeten ﷺ da han døde?',
+    options: ['60 år', '63 år', '70 år'],
+    correct: 1
+  },
+
+
+],
+  sirah3: [  // Leksjon 2 – Profetens koner (Ummahat al-Mu’minin)
+  {
+    question: '6. Hvor mange koner etterlot Profeten ﷺ da han døde?',
+    options: ['7', '9', '11'],
+    correct: 1
+  },
+  {
+    question: '7. Hvem var Profetens yngste kone?',
+    options: ['Hafsa', 'Aisha', 'Zaynab'],
+    correct: 1
+  },
+  {
+    question: '8. Hvem var datter av Abu Sufyan og kona til Profeten ﷺ?',
+    options: ['Umm Kulthum', 'Ramlah (Umm Habiba)', 'Safiyyah'],
+    correct: 1
+  },
+  {
+    question: '9. Hvem av konene var datter av Umar ibn al-Khattab?',
+    options: ['Hafsa', 'Maymunah', 'Sawda'],
+    correct: 0
+  },
+  {
+    question: '10. Hva kalles konene til Profeten ﷺ kollektivt i islam?',
+    options: [
+      'De hellige kvinner',
+      'Mødrene til de troende',
+      'De rettferdige koner'
+    ],
+    correct: 1
+  }],
+
   quran: [
     {
       question: '1. Hva er Koranen?',
