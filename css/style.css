@@ -504,6 +504,11 @@ color: #4b5563;
   display: none;
   padding-left: 20px;
   color: #555;
+ 
+}
+
+.faq__answer :not .norwegian{
+    text-align: right;
 }
 
 .faq.open .faq__answer {
